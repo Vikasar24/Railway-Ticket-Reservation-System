@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-image: url('YourImage.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: black; /* Set default font color to black */
+}
+
+header {
+    background-color: rgba(0, 64, 128, 0.8); /* Add transparency to blend with the background image */
+    color: white;
+    padding: 20px 0; /* Updated padding */
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em; /* Adjusted font size */
+}
+
+.home {
+    display: inline-block;
+    margin: 0 20px; /* Updated margin */
+}
+
+.home p {
+    margin: 0;
+}
+
+.home p a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home p a:hover {
+    text-decoration: underline;
+}
+
+.main, .tab {
+    text-align: center;
+    padding: 30px; /* Updated padding */
+    background-color: rgba(255, 255, 255, 0.9); /* Add transparency to blend with the background image */
+    margin: 30px auto; /* Updated margin */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black; /* Ensure font color is black */
+}
+
+.tab.red {
+    background-color: rgba(255, 221, 221, 0.9); /* Add transparency */
+}
+
+.tab.green {
+    background-color: rgba(221, 255, 221, 0.9); /* Add transparency */
+}
+
+.tab.brown {
+    background-color: rgba(244, 244, 244, 0.9); /* Add transparency */
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center; /* Center align the form elements */
+}
+
+form input[type="text"], form input[type="password"], form input[type="submit"] {
+    width: calc(100% - 40px); /* Updated width */
+    padding: 15px; /* Updated padding */
+    margin: 15px 0; /* Updated margin */
+    border: 1px solid #000; /* Black border */
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #004080;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+form input[type="submit"]:hover {
+    background-color: #003366;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 64, 128, 0.8); /* Add transparency */
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+address#cent {
+    text-align: center;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto; /* Center align the table */
+}
+
+table, th, td {
+    border: 1px solid black; /* Black borders for table, headers, and cells */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center; /* Center align the table content */
+    font-size: 1em; /* Ensure font color is black */
+}
